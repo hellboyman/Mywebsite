@@ -97,8 +97,11 @@ a{
 }
 
 .topcontent-top{
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin-top: 1%;
+    
+}
+.topcontent{
+    margin-top: 75px;
 }
 
 
@@ -175,12 +178,11 @@ a{
     font-size: 20px;
     text-transform: capitalize;
     font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
-    justify-content: center;
     margin-right: auto;
     margin-left: auto ;
- 
+    margin-bottom: 15px;
     display: block;  
-    padding-top: 25%;
+    padding-top: 15%;
     width: 50%;
     text-align: center;
     
