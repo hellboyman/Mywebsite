@@ -349,21 +349,21 @@ a:hover{
     }
 }
 
-@media screen and  (max-width: 576px){ 
+@media screen and  (max-width: 575px){ 
     .button-menu-list{
-        position: fixed;
-        top: 100%;
+        /* position: absolute;
         width: 100%;
         padding: 15px 0 25px;
         background-color: black;
         left: 70%;
-        font-size: 30px;
+        font-size: 30px; */
+        padding: 1%;
         display: block;
     }
     .burger_btn{
         display: block;
         background-color: black;
-        padding: 15px;
+        padding: 11px;
         border-radius: 60px;
         cursor: pointer;
         position: fixed;
