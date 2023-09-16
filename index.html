@@ -2,23 +2,23 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Websit</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <link rel="icon" type="imge/x-icon" href="photo2.jpg">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body class="body">
     <section class="background-top">
         <div class="top-bar-box">
-            <img class="LOGO" src="headstick2.0.png"  >   
-            <a id="resume" href="#resume"><span>Resume</span></a>
-            <a id="project" href="#Project"><span>Project</span></a> 
-            <a id="about" href="#about-me"><span>About</Span></a> 
-            <a id="experience" href="#Experience"><span>Experience</Span></a> 
-            <div class="burger">  
-                <div class="line"></div>   
-                <div class="line"></div>   
-                <div class="line"></div>
+            <img class="LOGO" src="headstick2.0.png"  >
+            <div class="top-list">   
+            <li class="list-link"><a id="resume" href="#resume"><span>Resume</span></a></li>
+            <li class="list-link"><a id="project" href="#Project"><span>Project</span></a> </li>
+            <li class="list-link"><a id="about" href="#about-me"><span>About</Span></a> </li>
+            <li class="list-link"><a id="experience" href="#Experience"><span>Experience</Span></a> </li>
             </div>     
         </div>
         <section class="section-content-area">
@@ -46,6 +46,7 @@
             <hr class="HRstyle">                   
         </section> 
     </section>
+
     <section class="Resume-area">
         <div class="Resume-area-content">
         <p>
@@ -144,7 +145,7 @@
                     <hr class="HRstyle2">
                 </ul>
                 <ul class="exp-title">
-                    2021 .Mar - 2022 .May
+                    2022 .Mar - 2022 .May
                     <li class="spot">
                         MogaFX 外匯平台經紀商
                     </li>
@@ -164,11 +165,44 @@
                 </div>
             </div>
         <hr class="HRstyle2"> 
-    </section>        
-    <div class="button">
-
+    </section> 
+    <section id="mentaljourney" class="section-content-are">
+        <div class="head-title">
+            <a id="mentaljourney"> 
+            「Mental Journey」
+            </a>
+        </div> 
+        <hr class="HRstyle2">
+        <p class="mentaljourney-content">
+            
+            
+            <ul class="time-line-content">
+                <li>待更新項目</li>:
+                <li>CSS檔</li>:整理ＣＯＤＥ
+                <li>btnmenulist</li>:賦予功能    
+                
+                <p>2023 / 9 / 16 更新</p>
+            </ul>
+        </p>
+    </section> 
+    <div class="button-menu" >      
+        <div class="button-menu-list" >
+            <ul class="show"id="btnmenulist" >
+                <li class="list1"><a >Resume</a></li>
+                <li class="list2" ><a href="Project">Project</a></li>
+                <li class="list3"><a href="About">About</a></li>
+                <li class="list4"><a href="Experience">Experience</a></li>
+            </ul>            
+        </div>
+            
     </div>
-    <script src="index.js"></script>
+    <div href="javascript:void(0);"  class="burger_btn" onclick="myFunction()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>     
+     </div>
+     <a id="Topbtn" class="acttion_Topbtn" onclick="topFunction()">Top</a>
+    
 </body>
 </html>
     

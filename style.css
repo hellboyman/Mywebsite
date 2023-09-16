@@ -1,12 +1,23 @@
-body {
-    background-color: rgb(53, 56, 56);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+
+
+body {
+    background-color: rgb(53, 53, 53);
+    
 }
 
 .spot{
     font-size: 18px;
     font-weight: 1px;
-    
+}
+ul{
+    list-style: none;
 }
 
 
@@ -21,7 +32,12 @@ p {
 }
 a{
     line-height: 1em;
+    text-decoration: none;
 }
+a:hover{
+    background-color:darkgray;
+}
+
 
 .background-top {
     display: flex;
@@ -46,8 +62,8 @@ a{
     display: flex;
     justify-content: left;     
     align-items: center;
-    padding: 1px;
-    transition: 0.7s;
+    padding: 0px;
+    
 }
 
 .top-bar-box a{
@@ -67,29 +83,6 @@ a{
     border-radius: 10px
 }
 
-.burger{
-    position: absolute;
-    cursor: pointer;
-    right: 3%;
-    top: 42%;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.line{
-    width: 33px;
-    background-color: #fff;
-    margin: 3px 3px;
-    height: 4px;
-    border-radius: 10px
-}
-
-.top-bar-box a.active{
-    background-color: #04A;
-    color: black;
-}
 
 .top-bar-box img{
     width: 98px;
@@ -116,7 +109,6 @@ a{
 }
 
 .head-title{
-    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 200;
     margin-top: 1%;
@@ -134,8 +126,8 @@ a{
 }
 
 .HRstyle2{
-    margin-right: 200;
-    margin-left:  200;
+    margin-right: auto;
+    margin-left: auto ;
     align-items: center;
     display: block;
     width: 50%;
@@ -145,7 +137,7 @@ a{
     width: 185px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 0;
+    margin-top: 5px;
     justify-items: center;
     align-items: center;
     display: block;
@@ -156,7 +148,6 @@ a{
     padding-left: 200px;
     padding-right: 200px;
     text-align: center;
-    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
     text-transform: capitalize;
     padding-top: 0%;
 }
@@ -174,7 +165,6 @@ a{
     color: #fff;
     font-size: 20px;
     text-transform: capitalize;
-    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
     margin-right: auto;
     margin-left: auto ;
     margin-bottom: 15px;
@@ -202,19 +192,7 @@ a{
     margin-top: 1%;
 }
 
-.Resume-title{
-    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 50px;
-    font-weight: 200;
-    margin-right: 200px;
-    margin-left: 200px ;
-    margin-top: auto;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    text-align:center;
-    display: block; 
-}
+
 
 .resume-time-line{
     width: 200px;
@@ -222,8 +200,7 @@ a{
     margin: 5%;
 }
 
-.timeline{
-    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+.timeline{  
     font-size: 20px;
     color: #fff;
     display: block;
@@ -232,18 +209,198 @@ a{
 
 .exp-content{
     color: #fff;
-    text-align: center; 
+    text-align: center;
+     
 }
 .exp ul{
     text-align: center;
-    margin-right: 40px;
+    margin-right: 0px;
+}
+.mentaljourney-content{
+    color: #fff;
+}
+.time-line-conten{
+    color: #fff;
+
 }
 
- 
+
+.button-menu{
+    position: fixed;
+    text-align: right;
+    bottom: 5%;
+    left: 78%;
+    list-style: none; 
+    overflow: hidden;
+   
+}
+.button-menu  #button-menu-list{
+    display: block;
+    
+    
+}
+
+.toggle_btn{
+    color: #fff;
+    size: 100px;
+}
+
+.burger_btn{
+    display: block;
+    background-color: black;
+    padding: 15px;
+    border-radius: 60px;
+    cursor: pointer;
+    position: fixed;
+    text-align: right;
+    bottom: 5%;
+    left: 88%;
+    list-style: none; 
+}
+
+.bar{
+    width: 33px;
+    background-color: #fff;
+    margin: 4px;
+    height: 4px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-list{
+    display: flex;
+    list-style: none;
+}
+
+
+.button-menu-list{
+    position: fixed;
+    text-align: right;
+    bottom: 10%;
+    left: 78%;
+    list-style: none;
+    cursor: pointer;
+    display: block;
+   
+}
+.show{
+    display: none;
+}
+
+
+
+.list1{
+    font-size: 30px;
+    font-style: italic;
+    color: #fff;
+    line-height: 1.5em;
+    padding: 6px;
+    
+
+}
+.list2{
+    font-size: 30px;
+    font-style: italic;
+    color: #fff; 
+    line-height: 1.5em;
+    padding: 6px;
+
+}
+.list3{
+    font-size: 30px;
+    font-style: italic;
+    color: #fff;
+    line-height: 1.5em;
+    padding: 6px;
+
+}
+.list4{
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1.5em;
+    padding: 15px;
+}
+
+
+.button-menu-list a{
+    color: #fff; 
+    border-radius: 5px; 
+}   
+
+.time-line-content{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    
+
+}
+
+
+
+
+/* .burger_btn--open{
+    width: 100%;
+    transition: translate(-50%)
+} */
+
+
+/* 
+.button-menu-list--open{
+    transform:translate(100%);
+} */
+
+
+
+@media screen and (max-width: 860px){ 
+    .top-bar-box{
+       display: none;
+    }
+}
+
+/* @media screen and(max-width: 860px){ 
+    .button-menu-list{
+        position: fixed;
+        top: 100%;
+        width: 100%;
+        padding: 15px 0 25px;
+        background-color: black;
+        font-size: 30px;
+        transform: translate(-50%);
+        display: block;
+    }
+} */
+
+
+
+
 html {
     scroll-behavior: smooth;
 }   
+
+.burger_btn:hover{
+     background-color: rgb(41, 62, 75);
+}
   
+.acttion_Topbtn{
+    font-weight: 100%;
+    display: block;
+    font-size: 25px;
+    color: floralwhite;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+    position: fixed;
+    text-align: right;
+    bottom: 0%;
+    left: 90%;
+    z-index: 99;
+    outline: none;
+}
+.acttion_Topbtn:hover{
+    color:  black;
+}
+
 
 
 
