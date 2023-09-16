@@ -253,8 +253,8 @@ a:hover{
     cursor: pointer;
     position: fixed;
     text-align: right;
-    bottom: 5%;
-    left: 88%;
+    bottom: 6%;
+    left: 85%;
     list-style: none; 
 }
 
@@ -278,7 +278,7 @@ a:hover{
     position: fixed;
     text-align: right;
     bottom: 10%;
-    left: 78%;
+    left: 65%;
     list-style: none;
     cursor: pointer;
     display: block;
@@ -358,7 +358,7 @@ a:hover{
     }
 }
 
-/* @media screen and(max-width: 860px){ 
+@media screen and(max-width: 860px){ 
     .button-menu-list{
         position: fixed;
         top: 100%;
@@ -369,7 +369,7 @@ a:hover{
         transform: translate(-50%);
         display: block;
     }
-} */
+}
 
 
 
@@ -392,8 +392,8 @@ html {
     padding: 10px;
     position: fixed;
     text-align: right;
-    bottom: 0%;
-    left: 90%;
+    bottom: 2%;
+    left: 85%;
     z-index: 99;
     outline: none;
 }
